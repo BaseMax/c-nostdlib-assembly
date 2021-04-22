@@ -32,13 +32,13 @@ _start:
 ```
 
 As defined in $build/usr/include/asm/unistd_32.h, the syscall numbers for write and _exit are:
-```
+```c
 #define __NR_exit 1
 #define __NR_write 4
 ```
 
 In $build/usr/include/asm/unistd_64.h, the syscall numbers are defined as following:
-```
+```c
 #define __NR_write 1
 #define __NR_exit 60
 ```
