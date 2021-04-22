@@ -1,6 +1,6 @@
 # c-nostdlib-assembly
 
-We define own _start point without using glibc runtime library using **ASM**.
+We define own `_start` point without using glibc runtime library using **ASM**.
 
 ```bash
 $ gcc asm.c -o asm -nostdlib
