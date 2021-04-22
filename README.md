@@ -2,6 +2,8 @@
 
 We define own `_start` point without using glibc runtime library using **ASM**.
 
+Support both **x86_64** and **i386** architecture.
+
 ```bash
 $ gcc asm.c -o asm -nostdlib
 ```
